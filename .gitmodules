@@ -1,0 +1,18 @@
+[submodule "extern/gotm"]
+	path = extern/gotm
+	url = ../../gotm-model/code.git
+[submodule "extern/fabm"]
+	path = extern/fabm
+	url = ../../fabm-model/fabm.git
+[submodule "extern/ersem"]
+	path = extern/ersem
+	url = ../../pmlmodelling/ersem.git
+[submodule "extern/pisces"]
+	path = extern/pisces
+	url = ../fabm-pisces.git
+[submodule "extern/mizer"]
+	path = extern/mizer
+	url = ../../pmlmodelling/fabm-mizer
+[submodule "extern/spectral"]
+	path = extern/spectral
+	url = ../../pmlmodelling/fabm-spectral.git
