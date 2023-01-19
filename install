@@ -2,7 +2,7 @@
 
 REPO_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
-FABM_ARGS="-DFABM_INSTITUTES=\"gotm;msi;pml;ersem;pisces;mizer;spectral\" -DFABM_ERSEM_BASE=${REPO_DIR}/extern/ersem -DFABM_MIZER_BASE=${REPO_DIR}/extern/mizer -DFABM_SPECTRAL_BASE=${REPO_DIR}/extern/spectral"
+FABM_ARGS="-DFABM_INSTITUTES=\"gotm;msi;pml;ersem;pisces;mizer;spectral\" -DFABM_ERSEM_BASE=${REPO_DIR}/extern/ersem -DFABM_PISCES_BASE=${REPO_DIR}/extern/pisces -DFABM_MIZER_BASE=${REPO_DIR}/extern/mizer -DFABM_SPECTRAL_BASE=${REPO_DIR}/extern/spectral"
 
 WORK_DIR=`mktemp -d`
 cd ${WORK_DIR}
