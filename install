@@ -6,15 +6,14 @@ FABM_ARGS="-DFABM_INSTITUTES='gotm;msi;pml;ersem;pisces;nersc;mizer;spectral' -D
 
 WORK_DIR=`mktemp -d`
 cd ${WORK_DIR}
-cmake ${REPO_DIR}/extern/fabm/src/drivers/python $FABM_ARGS
-make install
+cmake ${REPO_DIR}/extern/fabm/src/drivers/python -DCMAKE_BUILD_TYPE=Release $FABM_ARGS
+cmake --build . --target install
 cd -
 rm -rf ${WORK_DIR}
 
 WORK_DIR=`mktemp -d`
 cd ${WORK_DIR}
-cmake ${REPO_DIR}/extern/gotm -DFABM_BASE=${REPO_DIR}/extern/fabm $FABM_ARGS
-make
-cp gotm ~/.local/bin/
+cmake ${REPO_DIR}/extern/gotm -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=~/.local -DFABM_BASE=${REPO_DIR}/extern/fabm $FABM_ARGS
+cmake --build . --target install
 cd -
 rm -rf ${WORK_DIR}
