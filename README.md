@@ -22,6 +22,14 @@ We recommend installing with [Anaconda](https://www.anaconda.com/products/indivi
 
 Before using Anaconda for the first time, you may need to initialize it for shell interaction (this is not needed if you let the installer do this): execute `conda init`. Optionally, you can add an argument to specify which shell you will be using (default: cmd.exe/powershell on Windows, bash on Linux). This needs to be done just once. After initializing the conda environment, restart your shell by logging out and back in.
 
+To clone this repository locally:
+
+```bash
+git clone https://github.com/BoldingBruggeman/neccton-bb.git
+cd neccton-bb
+git submodule update --init --recursive
+```
+
 To build and install all software:
 
 ```bash
