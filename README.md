@@ -6,7 +6,7 @@ This repository contains tools to work with the [Framework for Aquatic Biogeoche
 * several third-party biogeochemical models (ERSEM, PISCES, ECOSMO)
 * the [General Ocean Turbulence Model (GOTM)](https://gotm.net): a 1D water column model used often to test biogeochemcial models
 
-The code for eahc of these is included as a git submodule, located at [`extern`](extern).
+The code for each of these is included as a git submodule, located at [`extern`](extern).
 
 ## Use with Binder
 
