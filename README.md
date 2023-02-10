@@ -46,7 +46,13 @@ bash ./install
 
 After installation, you will have:
 
-* GOTM, compiled with FABM support and the thrid-party biogeochemcial models mentioned above. This is available as the `gotm` executable, run typically from the command line.
+* GOTM, compiled with FABM support and the third-party biogeochemical models mentioned above. This is available as the `gotm` executable, run typically from the command line.
 * The `pyfabm` python package that allows you to access FABM from Python. This can be used to run box model (0D) simulations.
+
+Before you use either of these, you will have to activate the conda environment:
+
+```bash
+conda activate neccton-bb
+```
 
 The repository contains [several Jupyter notebooks](notebooks) that show how to run box model simulations and how to visualize output from GOTM.
