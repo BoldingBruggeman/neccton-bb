@@ -6,7 +6,7 @@ This repository contains tools to work with the [Framework for Aquatic Biogeoche
 * several third-party biogeochemical models (ERSEM, PISCES, ECOSMO)
 * the [General Ocean Turbulence Model (GOTM)](https://gotm.net): a 1D water column model used often to test biogeochemcial models
 
-The code for eahc of these is included as a git submodule, located at [`extern`](tree/main/extern).
+The code for eahc of these is included as a git submodule, located at [`extern`](extern).
 
 ## Use with Binder
 
@@ -49,4 +49,4 @@ After installation, you will have:
 * GOTM, compiled with FABM support and the thrid-party biogeochemcial models mentioned above. This is available as the `gotm` executable, run typically from the command line.
 * The `pyfabm` python package that allows you to access FABM from Python. This can be used to run box model (0D) simulations.
 
-The repository contains [several Jupyter notebooks](tree/main/notebooks) that show how to run box model simulations and how to visualize output from GOTM.
+The repository contains [several Jupyter notebooks](notebooks) that show how to run box model simulations and how to visualize output from GOTM.
